@@ -258,41 +258,45 @@ tr:hover {
     width: 50%; 
 }
     
-/* FAVOURITE MOVIE CSS */
-.favourite {
+/* EXPERIENCES CSS */
+.experiences {
     display: flex;
     flex-direction: column; 
     gap: 20px; 
-    margin-bottom: 20px;
+    margin: 0 auto;
 }
     
-.movie-item {
+.experiences-item {
     display: flex;
     text-align: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 15px; 
 }
     
-.favourite-img {
-    width: 17%; 
-    height: auto; 
+.experiences-img {
+    width: 22%; 
+    height: 10%; 
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
-    
-.movie-info h4 {
-    margin: 0 0 10px 0;
-    font-size: 18px;
-    text-align: left;
-    color: #333;
+
+.experiences-info {
+    flex-grow: 1;
 }
     
-.movie-info p {
-    margin: 0;
-    font-size: 14px;
+.experiences-info h4 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #333;
     text-align: left;
-    line-height: 2.0;
+}
+    
+.experiences-info p {
+    margin: 0 0 20px;
+    font-size: 14px;
+    line-height: 1.8;
     color: #555;
+    text-align: justify ;
 }
 
 /* EDUCATION BACKGROUND CSS */
@@ -407,7 +411,7 @@ body {
     }
 }
 
-/* WISHLIST CSS */
+/* FAMILY CSS */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
@@ -415,7 +419,7 @@ body {
     padding: 0;
 }
 
-.wishlist-container {
+.family-container {
     width: 100%;
     margin: 50px auto;
     border-radius: 10px;
@@ -423,18 +427,18 @@ body {
     text-align: center;
 }
 
-.wishlist-container h1 {
+.family-container h1 {
     color: #2c3e50;
     margin-bottom: 20px;
 }
 
-.wishlist {
+.family {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.wishlist-item {
+.family-item {
     width: 30%;
     margin: 15px;
     background-color: #ecf0f1;
@@ -444,7 +448,7 @@ body {
     text-align: center;
 }
 
-.wishlist-item img {
+.family-item img {
     width: 100%;
     height: 200px;
     object-fit: cover;
@@ -452,29 +456,28 @@ body {
     margin-bottom: 15px;
 }
 
-.wishlist-item h2 {
+.family-item h2 {
     color: #34495e;
     font-size: 1.5em;
     margin-bottom: 10px;
 }
 
-.wishlist-item p {
+.family-item p {
     font-size: 1.1em;
     color: #7f8c8d;
 }
 
 @media (max-width: 768px) {
-    .wishlist-item {
+    .family-item {
         width: 45%;
     }
 }
 
 @media (max-width: 480px) {
-    .wishlist-item {
+    .family-item {
         width: 100%;
     }
 }
-
 /* GALLERY CSS */
 body {
     font-family: Arial, sans-serif;
